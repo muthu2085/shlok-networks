@@ -64,14 +64,15 @@
 
     .marquee span {
       display: inline-block;
-      animation: marquee 15s linear infinite;
+      animation: marquee 20s linear infinite;
       font-size: 18px;
       font-weight: 600;
+      padding:0 16px;
     }
 
     @keyframes marquee {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-33.33%); }
     }
 
     .hover-image {
@@ -269,7 +270,10 @@
 
   <!-- Modern Marquee -->
   <div class="marquee">
-    <span>Welcome to Finance Hero - Your Private Finance Advisor - Boost Your Financial Growth - Explore Now!</span>
+    <span>Engineering We serve</span><span> •  EV Systems</span>
+    <span> •  Defense & Aerospace</span>
+    <span> •  Railways </span><span> •  Telecom</span>
+     <span>•  Artificial Intelligence</span><span> •  Medical</span><span> •  Data Centers</span>
   </div>
   <!-- TOP BORDER -->
   <div class="h-2 bg-[#0f2346] w-full"></div>
